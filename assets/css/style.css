@@ -1,0 +1,62 @@
+body {
+	max-width: 960px;
+}
+p {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif #777;
+}
+h1 {
+	background-color: #4aaaa5;
+	padding: 20px;
+	display: inline-block;
+	margin-left: 50px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+	color: #fff;
+}
+.navigation li{
+	float: right;
+}
+.navigation a{
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	padding-bottom: 20px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #666;
+}
+.background {
+background-image: url('../images/Trees.png');
+border-top: 2px solid #666;
+border-bottom: 5px solid #4aaaa5;
+}
+.description h2 {
+	margin: 20px;
+	border-bottom: 1px solid #666;
+	padding: 10px;
+	font-size: 1.5em;
+	color: #4aaaa5;
+}
+.description img {
+	float: left;
+	margin: 15px;
+}
+.description {
+	background-color: #fff;
+	max-width: 650px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+.sidebar {
+	background-color: #fff;
+	max-width: 270px;
+	float: right;
+	margin-right: 50px;
+}
+.footer {
+	background-color: #666;
+	padding: 20px;
+	text-align: center;
+	font-size: .75em;
+	color: #fff;
+}
