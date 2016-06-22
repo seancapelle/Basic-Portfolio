@@ -7,20 +7,20 @@ p {
 }
 .header {
 	background-color: #fff;
-	height: 60px;
+	height: 52px;
 }
 .header h1 {
 	float: left;
 	background-color: #4aaaa5;
-	padding: 20px;
+	padding: 10px;
 	display: inline-block;
 	margin-left: 50px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	font-size: 2em;
 	color: #fff;
 	width: 25%;
-	height: 20px;
 	text-align: center;
+	box-sizing: border-box;
 }
 .header li {
 	float: right;
@@ -64,12 +64,6 @@ p {
 	color: #4aaaa5;
 	font-size: 1.75em;
 }
-.left img {
-	float: left;
-	margin: 15px;
-	width: 100px;
-	height: 133px;
-}
 .right {
 	background-color: #fff;
 	float: right;
@@ -103,7 +97,20 @@ p {
 	color: #fff;
 	clear: both;
 }
-/*Styling for Contact section*/
+/*Styling for About Me section*/
+.left img {
+	float: left;
+	margin: 15px;
+	width: 100px;
+	height: 133px;
+}
+.left p {
+	text-align: justify;
+	text-justify: inter-word;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*Styling for Contact page*/
 input {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -137,8 +144,21 @@ input[type=submit] {
 	color: #fff;
 	border: none;
 }
-/*Styling for Portfolio section*/
-#box1 {
+/*Styling for Portfolio page*/
+.portfolioBody {
+	height: 700px;
+	background-image: url(../images/witewall_3.png);
+	overflow: none;
+	border-top: 2px solid #666;
+	border-bottom: 5px solid #4aaaa5;
+}
+.gallery img {
+	float: left;
+	width: 200px;
+	height: 150px;
+	border: 1px solid #666;
+}
+.gallery p {
 	height: 20px;
 	width: 180px;
 	background-color: #4aaaa5;
@@ -147,70 +167,34 @@ input[type=submit] {
 	font-size: 1em;
 	text-align: center;
 	color: #fff;
+}
+#box1 {
+	position: absolute;
+	z-index: 1;	
 	top: 280px;
 	left: 77px;
-	z-index: 1;
-	position: absolute;
 }
 #box2 {
-	
+	position: absolute;
+	z-index: 1;	
+	top: 280px;
+	left: 309px;	
 }
 #box3 {
-
+	position: absolute;
+	z-index: 1;	
+	top: 462px;
+	left: 77px;
 }
 #box4 {
-
+	position: absolute;
+	z-index: 1;	
+	top: 462px;
+	left: 309px;
 }
 #box5 {
-
-}
-.gallery img {
-	float: left;
-	width: 200px;
-	height: 150px;
-	border: 1px solid #666;
-	position: relative;
-	/*z-index: -1;*/
-}
-/*.first {
-	position: relative;
-	width: 20px;
-	height: 20px;
-	background-color: #4aaaa5;
-	padding: 10px 10px;
-	display: inline-block;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	font-size: 1em;
-	color: #fff;
-	border: none;
-	z-index: 10;*/
-}
-.box {
-	width: 20px;
-	height: 20px;
-	background-color: #4aaaa5;
-	padding: 10px 10px;
-	display: inline-block;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	font-size: 1em;
-	color: #fff;
-	border: none;
-	z-index: 10;
-	/*float: left;*/
-}
-/*.gallery img:before {
-	content: '';
 	position: absolute;
-	left: 2%;
-	top: 2%;
-	width: 95%;
-	height: 95%;
-	border: #4aaaa5;
-}*/
-.portfolioBody {
-	height: 700px;
-	background-image: url(../images/witewall_3.png);
-	overflow: none;
-	border-top: 2px solid #666;
-	border-bottom: 5px solid #4aaaa5;
+	z-index: 1;	
+	top: 645px;
+	left: 77px;
 }
